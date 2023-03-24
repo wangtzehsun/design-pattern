@@ -1,4 +1,4 @@
-package com.example.pattern.strategy;
+package com.example.pattern.strategy.exercise01;
 
 public class Main {
 

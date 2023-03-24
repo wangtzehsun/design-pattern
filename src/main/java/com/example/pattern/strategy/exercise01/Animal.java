@@ -1,6 +1,4 @@
-package com.example.pattern.strategy;
-
-import lombok.Data;
+package com.example.pattern.strategy.exercise01;
 
 public class Animal {
 
