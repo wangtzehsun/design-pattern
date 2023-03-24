@@ -5,11 +5,13 @@ basic inheritance to let sub class reuse super class method
 public class Main {
 
     public static void main(String[] args) {
-        AdvanceCalculator advanceCalculator = new AdvanceCalculator();
-        System.out.println(advanceCalculator.add(3, 7));
-        System.out.println(advanceCalculator.subtract(18, 3));
-        System.out.println(advanceCalculator.multiply(5, 6));
-        System.out.println(advanceCalculator.divide(18, 6));
+//        AdvanceCalculator calculator = new AdvanceCalculator();
+        SuperAdvanceCalculator calculator = new SuperAdvanceCalculator();
+        System.out.println(calculator.add(3, 7));
+        System.out.println(calculator.subtract(18, 3));
+        System.out.println(calculator.multiply(5, 6));
+        System.out.println(calculator.divide(18, 6));
+        System.out.println(calculator.power(2,4));
     }
 
 }
