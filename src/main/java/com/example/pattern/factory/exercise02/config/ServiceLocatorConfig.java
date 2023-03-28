@@ -14,7 +14,7 @@ public class ServiceLocatorConfig {
     public FactoryBean<?> getBean(){
         ServiceLocatorFactoryBean bean = new ServiceLocatorFactoryBean();
         bean.setServiceLocatorInterface(PaymentServiceFactory.class);
-        bean.setServiceLocatorExceptionClass(new BusinessException("=================").getClass());
+        bean.setServiceLocatorExceptionClass(new BusinessException("=================", new Throwable()).getClass());
         return bean;
     }
 
